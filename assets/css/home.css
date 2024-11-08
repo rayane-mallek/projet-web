@@ -1,0 +1,17 @@
+#home-viewer {
+    text-align: center;
+    padding: 20px;
+}
+#image-viewer {
+    margin-top: 20px;
+    min-height: 300px;
+}
+#about,
+#latest-news,
+#contact-info {
+    padding: 20px;
+}
+h1,
+h2 {
+    color: #a67a5b;
+}

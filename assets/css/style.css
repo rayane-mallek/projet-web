@@ -1,0 +1,79 @@
+/* Style par défaut */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #a67a5b;
+    position: relative;
+    height: 10vh;
+}
+nav .logo {
+    height: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-left: 1rem;
+}
+nav a:hover {
+    color: #f4f4f4;
+    background-color: #d8c3a5;
+    border-bottom: 2px solid #7d7461;
+}
+.burger {
+    display: none; /* Masqué par défaut */
+    flex-direction: column;
+    cursor: pointer;
+}
+.burger span {
+    background-color: #f4f4f4;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+    transition: 0.3s;
+}
+.nav-links {
+    display: flex; /* Visible en mode bureau */
+    z-index: 100;
+}
+.nav-links a {
+    margin-left: 1rem;
+}
+footer {
+    height: 10vh;
+    background-color: #a67a5b;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles pour les petits écrans */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Masqué par défaut en mode mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 10vh; /* Ajusté en fonction de la hauteur de `nav` */
+        left: 0;
+        width: 100%;
+        background-color: #a67a5b;
+        text-align: center;
+    }
+    .nav-links.show {
+        display: flex; /* Affiche le menu lorsque `.show` est ajouté */
+    }
+    .nav-links a {
+        padding: 1rem 0;
+        width: 100%;
+        margin: 0;
+    }
+    .burger {
+        display: flex; /* Affiche le menu burger en mode mobile */
+    }
+}

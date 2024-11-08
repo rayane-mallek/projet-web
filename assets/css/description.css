@@ -1,0 +1,52 @@
+#description-page {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+#description-intro {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #a67a5b;
+}
+#description-values {
+    margin-bottom: 30px;
+}
+#description-values ul {
+    list-style-type: none;
+    padding: 0;
+}
+#description-values li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 4px solid #a67a5b;
+    margin-bottom: 10px;
+}
+#description-team {
+    margin-bottom: 30px;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.team-member img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #a67a5b;
+}
+.team-member h3 {
+    color: #a67a5b;
+    margin: 0;
+}
+#description-history {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #a67a5b;
+}

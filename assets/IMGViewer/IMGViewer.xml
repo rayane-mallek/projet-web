@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+    <image>
+        <src>assets/img/pot1.png</src>
+        <alt>Pot en argile fait main</alt>
+    </image>
+    <image>
+        <src>assets/img/pot2.png</src>
+        <alt>Vase artisanal en argile</alt>
+    </image>
+    <image>
+        <src>assets/img/pot3.png</src>
+        <alt>Poterie décorative</alt>
+    </image>
+    <image>
+        <src>assets/img/pot4.png</src>
+        <alt>Vase moderne</alt>
+    </image>
+</images>
